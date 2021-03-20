@@ -3,4 +3,10 @@
     <string name="login">Login</string>
     <string name="user">Username</string>
     <string name="pass">Password</string>
+    <string name="judul2">judul2</string>
+    <string name="tData">DATA ANDA</string>
+    <string name="tuser">User</string>
+    <string name="tvuser">ini user</string>
+    <string name="tpw">Password</string>
+    <string name="tvpw">ini pw </string>
 </resources>
