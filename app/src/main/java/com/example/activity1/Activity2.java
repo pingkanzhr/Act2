@@ -14,7 +14,7 @@ public class Activity2 extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act2);
 
-        tuser=(TextView)findViewById(R.id.tvuser);
+        tuser=findViewById(R.id.tvuser);
         tpw=findViewById(R.id.tvpw);
 
         Bundle bendel2 = this.getIntent().getExtras();
@@ -26,6 +26,4 @@ public class Activity2 extends AppCompatActivity{
 
     }
 
-
-
-    }
+}

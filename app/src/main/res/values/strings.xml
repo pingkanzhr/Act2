@@ -9,4 +9,12 @@
     <string name="tvuser">ini user</string>
     <string name="tpw">Password</string>
     <string name="tvpw">ini pw </string>
+    <string name="label2">Login Succes</string>
+    <string name="mDaftar">Pendaftaran</string>
+    <string name="Idaftar">Daftar</string>
+    <string name="enama">Masukkan Nama</string>
+    <string name="euser">Masukkan User</string>
+    <string name="epass">Masukkan Password</string>
+    <string name="erepass">Masukkan Pass Kembali</string>
+    <string name="ealamat">Masukkan Alamat</string>
 </resources>
