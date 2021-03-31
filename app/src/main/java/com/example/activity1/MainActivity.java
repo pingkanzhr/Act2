@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     bendel.putString("a", user.trim());
                     bendel.putString("b", pwsd.trim());
 
-                    Intent intenBaru = new Intent(MainActivity.this,Activity2.class);
+                    Intent intenBaru = new Intent(getApplicationContext(),Home_Activity.class);
                     intenBaru.putExtras(bendel);
                     startActivity(intenBaru);
                 }
@@ -101,7 +101,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.mDaftar)
         {
-            Intent intent = new Intent(getApplicationContext(), DaftarAct.class);
+            Intent intent = new Intent(getApplicationContext(), Home_Activity.class);
+            Intent bundle = null;
+            intent.putExtras(bundle);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
